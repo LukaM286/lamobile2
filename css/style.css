@@ -303,15 +303,15 @@ header .carousel-item {
 }
 
 header .carousel-one {
-    background-image: url(20240918_154759.jpg);
+    background-image: url(../20240918_154759.jpg);
 }
 
 header .carousel-two {
-    background-image: url(20240918_154455.jpg);
+    background-image: url(../20240918_154455.jpg);
 }
 
 header .carousel-three {
-    background-image: url(prva-stran_27.jpg);
+    background-image: url(../prva-stran_27.jpg);
 }
 
 header button a {
@@ -329,7 +329,7 @@ header button a {
 
 .about {
     padding-top: 70px;
-    background-image: url(bg.jpg);
+    background-image: url(../bg.jpg);
     background-size: 100% 90%;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -394,7 +394,7 @@ header button a {
     height: 450px;
     width: 580px;
     right: 120px;
-    background-image: url('pic1.jpg');
+    background-image: url('../pic1.jpg');
     background-size: cover;
     position: relative
 }
@@ -440,7 +440,7 @@ header button a {
 
 .gallery {
     padding: 70px 0;
-    background-image: url('pic9.jpg');
+    background-image: url('../pic9.jpg');
     background-size: cover;
 }
 
@@ -485,20 +485,20 @@ header button a {
 }
 
 .gallery .pic-one {
-    background-image: url('girl.jpg')
+    background-image: url('../girl.jpg')
 }
 
 .gallery .pic-two {
-    background-image: url('52340647764_dd7821da5b.jpg')
+    background-image: url('../52340647764_dd7821da5b.jpg')
 }
 .gallery .pic-three {
-    background-image: url('20240918_160256.jpg')
+    background-image: url('../20240918_160256.jpg')
 }
 .gallery .pic-four {
-    background-image: url('dinner.jpg')
+    background-image: url('../dinner.jpg')
 }
 .gallery .pic-five {
-    background-image: url('53494041422_497811937d_w.jpg')
+    background-image: url('../53494041422_497811937d_w.jpg')
 }
 
 /* slider */
