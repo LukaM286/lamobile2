@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L&A mobile house</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="imgs/logo11.png " alt="#" style="border-radius: 10px;" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#room">Room Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Features
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="site2.html">Description</a>
+                                <a class="dropdown-item" href="site3.html">Special offers</a>
+                                <!--
+                                <a class="dropdown-item" href="#">Another link</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                -->
+                            </div>
+                        </li>
+                        
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contacts</a>
+                        </li>
+                        <li class="nav-item book d-flex align-items-center">
+                            <a class="nav-link" href="#contact"  onclick="event.stopPropagation();">book now</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header id="home">
+            <div class="small-container">
+
+                <div class="row">
+                    <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center" style="margin-top: 12%;">
+                        <h2>Escape to nature and create unforgettable memories by the river.</h2>
+                        <button><a href="#">About L&A house</a></button>
+                    </div>
+                </div>
+                <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                    <h1 class="text-capitalize" style="color: white; text-shadow: 2px 2px 8px #0099ff;">Welcome to <br> L&A mobile house </h1>
+                    <div id="headerslider" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item carousel-three active"></div>
+                        <div class="carousel-item carousel-two"></div>
+                        <div class="carousel-item carousel-one"></div>
+                      </div>
+                      <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                        <i class="fas fa-angle-double-left"></i>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                        <i class="fas fa-angle-double-right"></i>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="st-rec"></div>
+            <div class="rd-rec"></div>
+        </header>
+        
+        <div class="about lobster-font-family">
+            <div class="container">
+                <h2 class="text-center text-capitalize">About our mobile house</h2>
+                <img src="imgs/shape.png">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h4>A best place to enjoy your life</h4>
+                        <p>L&A mobile house is located by the Kolpa River, specifically in the peaceful surroundings. A getaway by the Kolpa River offers numerous activities such as swimming, boating, cycling, and hiking. </p>
+                        <button><a href="site3.html">Read more</a></button>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="img" style="background-image: url(imgs/20240918_155231.jpg); border-radius: 5px;"></div>
+                    </div>
+                </div>
+                <h2 class="text-capitalize" id="room" style="margin-left: 10%;">Rooms</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="img" style="background-image: url(imgs/20240918_154759.jpg); border-radius: 5px;" ></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="block">
+                            <div class="premik">
+                                <img src="imgs/shape.png" >
+                                <strong>Str. from 130€/night</strong>
+                                <h5>luxury rooms</h5>
+                                <p>L&A Mobile House is air-conditioned, sleeps 5, and includes 2 bedrooms, a kitchen, bathroom, and terrace. Amenities: free WiFi, parking, TV, BBQ, sauna, and jacuzzi (by request). Enjoy river bathing and our bar for a perfect getaway.</p>
+                                <button><a href="site2.html" class="text-capitalize">Read more</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery lobster-font-family" id="blog" >
+            <div class="container">
+                <h2 class="text-calitalize text-center">Our gallery</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12" style="margin-top: -0.1%;">
+                        <div class="pic-one"><h4 style="color: white;">Ride the River</h4></div>
+                        <div class="pic-two"><h4 style="color: white;">Drinks & Relaxation</h4></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-three active"><h4 style="color: white;">Relaxed swimming</h4></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-four"><h4 style="color: white;">Romantic dinner</h4></div>
+                        <div class="pic-five"><h4  style="color: white;">Spa & Wellness</h4></div>
+                    </div>
+                </div>
+                <button style="border: none; border-radius: 3px;"><a href="pic.html" class="bookme" target="_blank" >Gallery</a></button>
+            </div>
+        </div>
+        <!--
+        <div class="slider main-font-family">
+            <h2 class="text-center text-capitalize main-font-family">what our clients say</h2>
+          <div id="slideToNext" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
+              <li data-target="#slideToNext" data-slide-to="1"></li>
+              <li data-target="#slideToNext" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        -->
+        
+        <div class="contact main-font-family text-center">
+            <div class="container">
+                <h2 id="contact">Get in touch</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="contact-form">
+                            <form id="contact-form">
+                                <!-- To simplify the tutorial, the value is static. -->
+                                <input type="hidden" name="contact_number" value="697483" required>
+                                <label>Name</label>
+                                <input type="text" name="user_name" required>
+                                <label>Email</label>
+                                <input type="email" name="user_email" required>
+                                <label>Phone number</label>
+                                <input type="text" name="user_phone" required>
+                                <label>Message</label>
+                                <textarea name="message" required></textarea>
+                                <input type="submit" value="Send" id="sendbut">
+                            </form>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6">
+                        <h2 class="text-right">Book Your Holiday Best for relaxed retreats and cultural encounters</h2>
+                        <img src="imgs/shape.png">
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url(imgs/guga.jpg) ;"></div>
+        </div>
+        
+        <footer class="noto-font-family">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Useful links</h3>
+                            <ul class="text-capitalize">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#home">About</a></li>
+                                <li><a href="#room">Rooms</a></li>
+                                
+                                <li><a href="#contact">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Find us</h3>
+                            <p>Primostek 50,  <br>
+                                8332 Gradac, Slovenia<br>
+                                (+386) 040 670 085<br>
+                                (+386) 040 670 086<br>
+                                lamobilehouse@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 form">
+                            <h3>News letter</h3>
+                            <form onsubmit="alert('For email: ' + document.getElementById('email').value + ' to be submitted for news letter please write directly to our email lamobilehouse@gmail.com'); return false;">
+                                <input type="email" id="email" placeholder="Email" required>
+                                <input type="submit" value="Submit">
+                            </form>
+                            <ul>
+                                <li><a href="#" onclick="window.alert('Soon')"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" onclick="window.alert('Soon')"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" onclick="window.alert('Soon')"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="copyright noto-font-family">
+            <p>© 2024 All Rights Reserved. Design by Luka Mišmaš <a href="mailto:mismasluka@gmail.com">--Contact me--</a> +38640352607</p>
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                
+                'use strict';
+                
+                var winH = $(window).height();
+                
+                $('header').height(winH);
+                
+                $('.navbar ul.navbar-nav li a').on('click', function (e) {
+
+                    if ($(this).hasClass('nav-link')) return;
+                    if ($(this).hasClass('dropdown-item')) return;
+                    
+                    var getAttr = $(this).attr('href');
+                    
+                    e.preventDefault();
+                    $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+                });
+            });
+        </script>
+
+
+        <!-- Popup Modal -->
+        <div id="popupModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Wow, did we forget to mention?</h2>
+                <p>If you book a 3-day stay or longer, you get free rent of a <b style="color: red;">Stand-Up Paddleboard (SUP)!</b></p>
+            </div>
+        </div>
+        <script>
+            // Wait for the DOM to fully load
+            document.addEventListener("DOMContentLoaded", function() {
+                // Show the modal after a delay of 5 seconds (5000 milliseconds)
+                setTimeout(function() {
+                    document.getElementById('popupModal').style.display = 'block';
+                }, 20000);
+        
+                // Close the modal when the close button is clicked
+                document.querySelector('.close-btn').onclick = function() {
+                    document.getElementById('popupModal').style.display = 'none';
+                }
+        
+                // Close the modal if the user clicks anywhere outside of the modal content
+                window.onclick = function(event) {
+                    if (event.target == document.getElementById('popupModal')) {
+                        document.getElementById('popupModal').style.display = 'none';
+                    }
+                }
+            });
+        </script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "Wu0CPmZ1ZG1AGCaxA",
+        });
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const sendButton = document.getElementById('sendbut');
+            sendButton.disabled = true;
+
+
+            // these IDs from the previous steps
+            emailjs.sendForm('service_rgvkzij', 'template_onvzy0a', this)
+                .then(() => {
+                    console.log('SUCCESS!');
+                    window.alert("Your message has been sent, thank you for contacting us. We will reply in shortest time possible!");
+                    
+                }, (error) => {
+                    console.log('FAILED...', error);
+                    window.alert("Something went wrong, please contact us directly to our email lamobilehouse@gmail.com");
+                });
+        });
+    }
+</script>
+
+        
+
+    </body>
+</html>
