@@ -278,6 +278,41 @@ l be distracted by the readable content of a page when looking at its layout. Th
             });
         </script>
 
+                        <!-- Language Selection Popup -->
+                <div id="languagePopup" class="modal" style="box-shadow: #0099ff; margin-left: auto; margin-right: auto;">
+                    <div class="modal-content">
+                        <h2><b>Select Language</b></h2>
+                        <button id="englishBtn">English</button>
+                        <button id="slovenianBtn">Slovenian</button>
+                    </div>
+                </div>
+                <script>
+                    // Language selection popup logic
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var languagePopup = document.getElementById('languagePopup');
+                        languagePopup.style.display = 'block'; // Show the popup
+        
+                        // Handle language selection
+                        document.getElementById('englishBtn').onclick = function() {
+                            languagePopup.style.display = 'none'; // Hide the popup
+                            // No need to translate; stays in English
+                        };
+        
+                        document.getElementById('slovenianBtn').onclick = function() {
+                            languagePopup.style.display = 'none'; // Hide the popup
+                            // Translate the site to Slovenian
+                            translateToSlovenian();
+                        };
+                    });
+
+                    function translateToSlovenian(){
+                        window.location.href = 'slo.html';
+                    }
+
+
+
+                </script>
+
 
         <!-- Popup Modal -->
         <div id="popupModal" class="modal">
