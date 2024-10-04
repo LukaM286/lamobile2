@@ -209,8 +209,16 @@ l be distracted by the readable content of a page when looking at its layout. Th
                                 <label>Sporočilo</label>
                                 <textarea name="message" required></textarea>
                                 <input type="submit" value="Send" id="sendbut">
+                                <button id="booking" style="background-color: rgb(254, 206, 63); border: none; padding: 1.3%;">Rezervacija preko mobilnega telefona(pritisnite tukaj)</button>
                             </form>
                         </div>
+                        <script>
+                            document.getElementById('booking').addEventListener('click',function(event){
+                                event.preventDefault();
+                                window.location.href = 'https://www.booking.com/hotel/si/l-amp-a-mobile-house.sl.html';
+
+                            })
+                        </script>
                         
                     </div>
                     <div class="col-6">
