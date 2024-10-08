@@ -600,6 +600,7 @@ header button a {
     background-color: #ffcc33;
     border: none;
     margin-bottom: 0;
+    z-index: 0;
 }
 
 .contact > div:last-of-type {
